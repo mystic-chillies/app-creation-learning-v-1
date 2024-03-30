@@ -23,8 +23,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.REGISTRY_TOKEN }}
+          username: ${{ mystic-chillies }}
+          password: ${{ j&&niN8ne&dE }}
     -
         name: Pre-build dev container image
         uses: devcontainers/ci@v0.2
